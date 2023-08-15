@@ -3,18 +3,21 @@
     "id": 1,
     "title": "First Blog Post",
     "content": "This is the content of the first blog post.",
-    "date": "2023-08-13"
+    "date": "2023-08-13",
+    "image": "https://wallpapercave.com/wp/wp9277430.jpg"
   },
   {
     "id": 2,
     "title": "Second Blog Post",
     "content": "This is the content of the second blog post.",
-    "date": "2023-08-14"
+    "date": "2023-08-14",
+    "image": "https://cdn.wallpapersafari.com/34/76/Je0IY2.jpg"
   },
   {
     "id": 3,
     "title": "Third Blog Post",
     "content": "This is the content of the third blog post.",
-    "date": "2023-08-15"
+    "date": "2023-08-15",
+    "image": "https://wallpaperaccess.com/full/1712283.jpg"
   }
 ]
