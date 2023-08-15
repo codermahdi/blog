@@ -13,24 +13,23 @@ const page = () => {
 
   return (
     <>
-      <div className="mx-14 text-center">
-        <button className="btn btn-wide btn-primary my-10">
-          <Link href={"/blog"}>Go Blog Page</Link>
-        </button>
+      <div className="mx-14 text-center ">
+        <Link className="btn btn-wide btn-primary my-10" href={"/blog"}>
+          Go Blog Page
+        </Link>
 
-        <article className="flex flex-col shadow my-4 text-justify">
-          <img
-            className="w-1/2"
-            src="https://source.unsplash.com/collection/1346951/1000x500?sig=1"
-          />
-          <div className="flex flex-col justify-start p-6">
-            <h1 className="text-2xl font-bold pb-3">{post.title}</h1>
-            <p href="#" className="text-sm pb-8">
-              Published on {post.date}
-            </p>
-            <p className="pb-3">{post.content}</p>
-          </div>
-        </article>
+        <div className="w-[50%] m-auto">
+          <article className="flex flex-col shadow my-4 text-justify">
+            <img className="w-full" src={post.image} />
+            <div className="flex flex-col justify-start p-6">
+              <h1 className="text-2xl font-bold pb-3">{post.title}</h1>
+              <p href="#" className="text-sm pb-8">
+                Published on {post.date}
+              </p>
+              <p className="pb-3">{post.content}</p>
+            </div>
+          </article>
+        </div>
         <h2>Chamge</h2>
       </div>
     </>
